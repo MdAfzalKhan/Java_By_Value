@@ -5,12 +5,16 @@ public class ByValue {
 	static int x = 50;
 
 	public static void main(String[] args) {
+		
 		ByValue objValue = new ByValue();
-
+		
+		System.out.println("=====End======");
 		add(x);
 		System.out.println("After x value in method add : " + x);
 		obj(objValue);
 		System.out.println("x value assigned by object : " + x);
+		
+		System.out.println("=====End======");
 		
 		
 	}
